@@ -1,0 +1,11 @@
+.idea/
+.gradle/
+*.zip
+**/build
+**/generated
+classes/
+*.iml
+
+# Created automatically by Mac OS X.
+.DS_Store
+out
