@@ -1,2 +1,2 @@
 # gl-sb-demo
-handson
+sprint boot app with CRUD on H2 in memory db.
