@@ -3,7 +3,6 @@ package com.gl.sb.demo.controller;
 import com.gl.sb.demo.model.Employee;
 import com.gl.sb.demo.service.EmployeeService;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,7 +15,6 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class EmployeeController {
 
-    @Autowired
     private EmployeeService employeeService;
 
     public EmployeeController(EmployeeService employeeService) {
