@@ -1,4 +1,4 @@
-package com.gl.sb.demo.main.application;
+package com.gl.sb.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
